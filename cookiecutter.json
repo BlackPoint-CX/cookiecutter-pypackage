@@ -3,7 +3,7 @@
   "email": "msg.receiver.bp@gmail.com",
   "github_username": "BlackPoint-CX",
   "project_name": "Temporary Project",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_slug": "{{ cookiecutter.project_name.replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Temporary Project.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.1.0",
